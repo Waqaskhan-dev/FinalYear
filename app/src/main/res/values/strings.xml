@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="life">LifeSum</string>
+    <string name="your_diet_is_a_bank_account_good_food_choices_are_good_investments">Your diet is a bank account. Good food choices are good investments</string>
+    <string name="log_in">LOG IN</string>
+    <string name="get_started">Get Started</string>
+</resources>
