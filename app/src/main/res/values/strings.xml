@@ -4,4 +4,21 @@
     <string name="your_diet_is_a_bank_account_good_food_choices_are_good_investments">Your diet is a bank account. Good food choices are good investments</string>
     <string name="log_in">LOG IN</string>
     <string name="get_started">Get Started</string>
+    <string name="welcome_to_lifesum">Welcome to Lifesum!</string>
+    <string name="get_your_plan">GET YOUR PLAN</string>
+    <string name="let_us_know_your_goal_and_we_ll_get_you_a_personalized_health_plan_in_minutes">Let us know your goal,and we\'ll get you a personalized health plan in minutes.</string>
+    <string name="title_activity_choice">choice</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="let_s_get_to_know_you_better">Let\'s get to know you better!</string>
+    <string name="what_goal_do_you_have_in_mind">What goal do you have in mind?</string>
+    <string name="message">We use this information to calculate and provide you with daily personalized recommendations.</string>
+    <string name="choice">NEXT</string>
+    <string name="maintain_weight">MAINTAIN WEIGHT</string>
 </resources>

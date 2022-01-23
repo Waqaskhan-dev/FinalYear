@@ -6,16 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class welcome extends AppCompatActivity {
+public class choice extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
-    }
-    public  void third(View v)
-    {
-        Intent choice=new Intent(this, choice.class);
-        startActivity(choice);
+        setContentView(R.layout.activity_choice);
     }
 }
