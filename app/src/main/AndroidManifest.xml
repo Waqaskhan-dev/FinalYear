@@ -10,9 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".height"
+            android:exported="false"
+            android:parentActivityName=".DOB"
+            />
+        <activity
+            android:name=".DOB"
+            android:exported="false"
+            android:parentActivityName=".Gender" />
+        <activity
+            android:name=".Gender"
+            android:exported="false"
+            android:parentActivityName=".choice" />
+        <activity
             android:name=".choice"
             android:exported="false"
-            android:parentActivityName=".welcome"/>
+            android:parentActivityName=".welcome" />
         <activity
             android:name=".welcome"
             android:exported="false"
@@ -23,7 +36,6 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -3,13 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/custom.xml" value="0.2203125" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/custom_style.xml" value="0.646875" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/effect.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_female_svgrepo_com.xml" value="0.2203125" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_female_svgrepo_com__1_.xml" value="0.2203125" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_health_care_svgrepo_com.xml" value="0.2203125" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/round.xml" value="0.21614583333333334" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/drawable/roundcorner.xml" value="0.2203125" />
-        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_choice.xml" value="0.25" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_choice.xml" value="0.18" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_dob.xml" value="0.22" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_gender.xml" value="0.25" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_height.xml" value="0.22" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_hieght.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/activity_welcome.xml" value="0.22" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/content_choice.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Ocean Computers/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />

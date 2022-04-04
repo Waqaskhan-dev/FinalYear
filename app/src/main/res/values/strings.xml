@@ -21,4 +21,10 @@
     <string name="message">We use this information to calculate and provide you with daily personalized recommendations.</string>
     <string name="choice">NEXT</string>
     <string name="maintain_weight">MAINTAIN WEIGHT</string>
+    <string name="lose_weight">LOSE WEIGHT</string>
+    <string name="great_let_s_continue">Great let\'s continue.</string>
+    <string name="what_s_your_gender">What\'s your gender?</string>
+    <string name="nt">NEXT</string>
+    <string name="got_it">Got it.</string>
+    <string name="dob">What\'s your date of birth?</string>
 </resources>

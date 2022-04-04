@@ -13,4 +13,9 @@ public class choice extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
     }
+    public  void forth(View v)
+    {
+        Intent gendr=new Intent(this, Gender.class);
+        startActivity(gendr);
+    }
 }
