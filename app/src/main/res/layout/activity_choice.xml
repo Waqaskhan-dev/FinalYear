@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff9dd"
+    android:background="@color/white"
     tools:context=".choice">
 
     <TextView
@@ -27,19 +27,20 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="356dp"
-        android:layout_height="51dp"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
         android:gravity="center"
         android:text="@string/what_goal_do_you_have_in_mind"
         android:textColor="#272525"
-        android:textSize="24sp"
+        android:textSize="22sp"
         android:textStyle="normal|bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.034" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <TextView
         android:id="@+id/textView7"
@@ -71,84 +72,64 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="407dp"
+        android:layout_width="372dp"
+        android:layout_height="342dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="1dp"
+        android:background="@color/white"
         android:orientation="vertical"
-        android:background="#fff9dd"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardview1"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="50dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="20dp"
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            >
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/radio_selecter"
+                android:button="@android:color/transparent"
+                android:drawableStart="@drawable/ic_health_care_svgrepo_com"
+                android:drawableLeft="@drawable/ic_health_care_svgrepo_com"
+                android:drawablePadding="20dp"
+                android:elevation="5dp"
+                android:paddingLeft="80dp"
+                android:text="LOSE WEIGHT"
+                android:textColor="@drawable/text_color"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_health_care_svgrepo_com"
+                app:drawableStartCompat="@drawable/ic_health_care_svgrepo_com" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="350dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radio_selecter"
+                android:button="@android:color/transparent"
+                android:drawableStart="@drawable/ic_health_care_svgrepo_com"
+                android:drawableLeft="@drawable/ic_health_care_svgrepo_com"
+                android:drawablePadding="20dp"
+                android:elevation="5dp"
+                android:paddingLeft="80dp"
+                android:text="MAINTAIN WEIGHT"
+                android:textColor="@drawable/text_color"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_health_care_svgrepo_com"
+                app:drawableStartCompat="@drawable/ic_health_care_svgrepo_com" />
+        </RadioGroup>
 
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="61dp"
-                    android:drawablePadding="20dp"
-                    android:gravity="center"
-                    android:paddingLeft="107dp"
-                    android:text="LOSE WEIGHT"
-                    android:textColor="#090707"
-                    android:textSize="16sp"
-                    app:drawableStartCompat="@drawable/ic_health_care_svgrepo_com"
-                    android:drawableStart="@drawable/ic_health_care_svgrepo_com"
-                    app:drawableLeftCompat="@drawable/ic_health_care_svgrepo_com"
-                    android:drawableLeft="@drawable/ic_health_care_svgrepo_com" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardview2"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="20dp"
-            >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="61dp"
-                    android:drawableStart="@drawable/ic_health_care_svgrepo_com"
-                    android:drawableLeft="@drawable/ic_health_care_svgrepo_com"
-                    android:drawablePadding="20dp"
-                    android:gravity="center"
-                    android:paddingLeft="107dp"
-                    android:text="@string/maintain_weight"
-                    android:textColor="#090707"
-                    android:textSize="16sp"
-                    android:paddingStart="107dp" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

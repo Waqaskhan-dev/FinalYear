@@ -10,10 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".desire_weight"
+            android:exported="false"
+            android:parentActivityName=".current_weight"/>
+        <activity
+            android:name=".current_weight"
+            android:exported="false"
+            android:parentActivityName=".height"/>
+        <activity
             android:name=".height"
             android:exported="false"
-            android:parentActivityName=".DOB"
-            />
+            android:parentActivityName=".DOB" />
         <activity
             android:name=".DOB"
             android:exported="false"
@@ -36,6 +43,7 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

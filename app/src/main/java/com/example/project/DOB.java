@@ -1,6 +1,7 @@
 package com.example.project;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.DatePicker;
@@ -37,5 +38,10 @@ public class DOB extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
+    }
+    public  void sixth(View v)
+    {
+        Intent height=new Intent(this, height.class);
+        startActivity(height);
     }
 }

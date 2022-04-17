@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff9dd"
+    android:background="@color/white"
     tools:context=".DOB">
 
     <TextView
@@ -62,6 +62,7 @@
         android:layout_height="52dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/round"
+        android:onClick="sixth"
         android:text="@string/nt"
         android:textColor="#fff9dd"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,8 +88,8 @@
 
     <EditText
         android:id="@+id/edittext01"
-        android:layout_width="193dp"
-        android:layout_height="50dp"
+        android:layout_width="171dp"
+        android:layout_height="54dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="dd/MM/YYYY"
@@ -96,9 +97,9 @@
         android:textColor="#272525"
         app:layout_constraintBottom_toBottomOf="@+id/textView17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.298" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

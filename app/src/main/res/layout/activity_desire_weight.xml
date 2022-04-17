@@ -4,49 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".height">
+    tools:context=".desire_weight">
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="72dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="348dp"
-        android:text="inches"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:layout_constraintVertical_bias="0.926" />
-
-    <EditText
-        android:id="@+id/editTextNumber2"
-        android:layout_width="81dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="0"
-        android:inputType="number"
-        android:textColor="#0C0C0C"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView21"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.345"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:layout_constraintVertical_bias="0.393"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawablePadding="5dp"
-        android:text="Thanks, you're doing great!"
+        android:text="Great, almost done!"
         android:textColor="#272525"
         android:textSize="20sp"
         android:textStyle="italic"
@@ -59,23 +24,23 @@
         app:layout_constraintVertical_bias="0.051" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="496dp"
-        android:text="What's your height?"
+        android:text="What's your goal weight?"
         android:textColor="#272525"
         android:textSize="25sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.114"/>
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/textView25"
         android:layout_width="330dp"
         android:layout_height="54dp"
         android:layout_marginBottom="84dp"
@@ -90,12 +55,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button8"
         android:layout_width="321dp"
         android:layout_height="52dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/round"
-        android:onClick="seventh"
         android:text="@string/choice"
         android:textColor="#fff9dd"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,37 +68,33 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="89dp"
-        android:layout_height="45dp"
+        android:id="@+id/editTextNumber4"
+        android:layout_width="125dp"
+        android:layout_height="49dp"
         android:ems="10"
         android:hint="0"
         android:inputType="number"
-        android:textColor="#0C0C0C"
-        android:textSize="24sp"
+        android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.654"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:layout_constraintVertical_bias="0.393"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.431" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView22"
         android:layout_width="48dp"
         android:layout_height="27dp"
-        android:layout_marginBottom="348dp"
-        android:text="feet"
+        android:text="kg"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintHorizontal_bias="0.606"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.43" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

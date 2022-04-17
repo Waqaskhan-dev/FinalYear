@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scaleType="centerCrop"
-    android:background="#fff9dd"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +15,7 @@
         android:gravity="center_horizontal"
         android:text="@string/life"
         android:textAlignment="center"
-        android:textColor="#D09CD2"
+        android:textColor="#0AF5CD"
         android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +33,7 @@
         android:lines="2"
         android:text="@string/your_diet_is_a_bank_account_good_food_choices_are_good_investments"
         android:textAlignment="center"
-        android:textColor="#481F48"
+        android:textColor="#00BFA6"
         android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,6 +50,7 @@
         android:background="@drawable/round"
         android:onClick="openactivty"
         android:text="@string/get_started"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
@@ -82,11 +83,11 @@
         android:layout_height="274dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227"
-        app:srcCompat="@drawable/ic_undraw_details_8k13"
+        app:layout_constraintVertical_bias="0.212"
+        app:srcCompat="@drawable/ic_undraw_medicine_b_1_ol__1_"
         tools:ignore="VectorDrawableCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
