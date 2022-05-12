@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class desire_weight extends AppCompatActivity {
+public class login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_desire_weight);
+        setContentView(R.layout.activity_login);
     }
-    public void move(View v)
+    public void new_user(View v)
     {
-        Intent last=new Intent(this, last_step.class);
-        startActivity(last);
+        Intent nw_reg=new Intent(this,welcome.class);
+        startActivity(nw_reg);
     }
 }

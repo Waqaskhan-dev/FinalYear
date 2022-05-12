@@ -10,13 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
+            android:name=".createaccount"
+            android:exported="false"
+            android:parentActivityName=".last_step" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false"
+            android:theme="@style/Theme.Project.NoActionBar" />
+        <activity
+            android:name=".last_step"
+            android:exported="false"
+            android:parentActivityName=".desire_weight" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".desire_weight"
             android:exported="false"
-            android:parentActivityName=".current_weight"/>
+            android:parentActivityName=".current_weight" />
         <activity
             android:name=".current_weight"
             android:exported="false"
-            android:parentActivityName=".height"/>
+            android:parentActivityName=".height" />
         <activity
             android:name=".height"
             android:exported="false"

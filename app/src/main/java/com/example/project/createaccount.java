@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class desire_weight extends AppCompatActivity {
+public class createaccount extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_desire_weight);
+        setContentView(R.layout.activity_createaccount);
     }
-    public void move(View v)
+    public void dash_board_access(View v)
     {
-        Intent last=new Intent(this, last_step.class);
-        startActivity(last);
+        Intent ad=new Intent(this, dashboard.class);
+        startActivity(ad);
     }
 }

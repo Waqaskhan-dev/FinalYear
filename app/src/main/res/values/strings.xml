@@ -27,4 +27,6 @@
     <string name="nt">NEXT</string>
     <string name="got_it">Got it.</string>
     <string name="dob">What\'s your date of birth?</string>
+    <string name="navigation_Drawer_open">Open Navigation drawer</string>
+    <string name="navigation_Drawer_close">Close Navigation drawer</string>
 </resources>

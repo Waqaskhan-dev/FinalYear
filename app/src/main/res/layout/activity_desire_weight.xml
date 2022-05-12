@@ -60,6 +60,7 @@
         android:layout_height="52dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/round"
+        android:onClick="move"
         android:text="@string/choice"
         android:textColor="#fff9dd"
         app:layout_constraintBottom_toBottomOf="parent"

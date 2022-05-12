@@ -6,16 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class desire_weight extends AppCompatActivity {
+public class last_step extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_desire_weight);
+        setContentView(R.layout.activity_last_step);
     }
-    public void move(View v)
+    public void using_email(View view)
     {
-        Intent last=new Intent(this, last_step.class);
-        startActivity(last);
+        Intent usemail=new Intent(this, createaccount.class);
+        startActivity(usemail);
     }
+
 }

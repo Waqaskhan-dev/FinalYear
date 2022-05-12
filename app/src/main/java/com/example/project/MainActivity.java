@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this, welcome.class);
         startActivity(intent);
     }
+    public void login_credintionls(View v)
+    {
+        Intent lo=new Intent(this,login.class);
+        startActivity(lo);
+    }
 }
